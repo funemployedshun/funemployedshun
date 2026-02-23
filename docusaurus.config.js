@@ -9,13 +9,19 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const BLOG_TITLE_ZH = '家裡不能蹲';
+const BLOG_SUBTITLE_ZH = '貧賤不能移，只能蹲家裡';
+const BLOG_HOMEPAGE_ZH = '首頁';
 const BLOG_POST_ZH = '文章';
+const LANGUAGE = 'en';
+const GITHUB_USER_NAME = 'funemployedshun';
+const GITHUB_PROJECT_NAME = GITHUB_USER_NAME;
+const DOMAIN = 'https://funemployedshun.com';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: BLOG_TITLE_ZH,
-  tagline: '貧賤不能移，只能蹲家裡',
-  // favicon: 'img/favicon.ico',
+  tagline: BLOG_SUBTITLE_ZH,
+  // favicon: 'img/favicon_shun.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -23,24 +29,20 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: DOMAIN,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: GITHUB_USER_NAME,
+  projectName: GITHUB_PROJECT_NAME,
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: LANGUAGE,
+    locales: [LANGUAGE],
   },
 
   presets: [
@@ -52,8 +54,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           blogTitle: BLOG_POST_ZH,
@@ -64,8 +66,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -87,7 +89,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: BLOG_TITLE_ZH,
+        title: BLOG_HOMEPAGE_ZH,
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
