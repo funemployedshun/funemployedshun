@@ -7,7 +7,7 @@ description: 大概不只我這樣，但也許只有我是因為這樣…？
 :::info BlogBlog 同樂會 - 2026 年 2 月
 這是蹲子的[「BlogBlog 同樂會 - 2026 年 2 月」](https://blogblog.club/party/)投稿文章。本月主題是[「只有我這樣嗎？」](https://wiwi.blog/blog/blogblog-party-feb-2026/)，由 [Wiwi](https://wiwi.blog) 主持。有自己的部落格就可以參加！
 
-什麼？二月剩兩天來不及了？[三月活動](https://alexhsu.com/perfect-days)也開跑嘍！又多一個月時間寫文章架部落格啦！一起來玩！
+什麼？二月剩沒幾天來不及了？[三月活動](https://alexhsu.com/perfect-days)也開跑嘍！又多一個月時間寫文章架部落格啦！一起來玩！
 :::
 
 印象中最後一次看韓劇時，接連看完《愛的迫降》跟《雖然是精神病但沒關係》，然後就沒有然後了。即使隔年一個平常完全不看韓劇的朋友以及當時常去的店裡的店員們共同推薦《海岸村恰恰恰》，我還是沒有在 Netflix 上為它按下播放鍵。而我原本就不看韓綜，除了偶爾被 YouTube 推薦時點過幾個影片。
