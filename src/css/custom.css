@@ -6,6 +6,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /* info color */
+  --ifm-color-info: #ff6719;
+  --ifm-color-info-dark: #e65c17;
+  --ifm-color-info-darker: #d95715;
+  --ifm-color-info-contrast-background: #fff5f0;
+  --ifm-color-info-contrast-foreground: #66290a;
+  --ifm-alert-border-color: #ff6719;
+
   /* font color */
   --ifm-color-primary: #ff6719;
   --ifm-color-primary-dark: #fc5500;
@@ -45,4 +53,8 @@
 
 [class^='sidebarItemTitle_'] {
   display: none;
+}
+
+.admonition-info a {
+  color: #ff6719;
 }
