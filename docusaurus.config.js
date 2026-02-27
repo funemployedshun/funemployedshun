@@ -21,7 +21,7 @@ const DOMAIN = 'https://funemployedshun.com';
 const config = {
   title: BLOG_TITLE_ZH,
   tagline: BLOG_SUBTITLE_ZH,
-  // favicon: 'img/favicon_shun.ico',
+  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -84,7 +84,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
